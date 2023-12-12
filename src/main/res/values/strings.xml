@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">lier</string>
+
+    <string-array name="nouns">
+        <item>자르반4세</item>
+        <item>아트록스</item>
+        <item>럭스</item>
+        <item>택시</item>
+        <item>버스</item>
+        <item>비행기</item>
+        <item>일본</item>
+        <item>서울</item>
+        <item>부산</item>
+        <item>의사</item>
+        <item>교사</item>
+        <item>시장</item>
+        <item>우체국</item>
+        <item>은행</item>
+        <item>발탄</item>
+        <item>아브렐슈드</item>
+        <item>주황버섯</item>
+        <item>페이커</item>
+        <item>강창민</item>
+        <item>조성훈</item>
+        <item>김초원</item>
+        <item>정다인</item>
+        <item>동경수</item>
+        <item>안다중</item>
+        <item>김민성</item>
+        <item>쵸비</item>
+        <item>쇼메이커</item>
+        <item>시흥게이밍</item>
+        <item>KT</item>
+        <item>젠지</item>
+        <item>룰러</item>
+        <item>구마유시</item>
+        <item>케리아</item>
+        <item>캐니언</item>
+        <item>데프트</item>
+        <item>헤네시스</item>
+        <item>라일라이</item>
+        <item>에포나즉시완료권</item>
+        <item>케이틀린</item>
+        <item>카직스</item>
+        <item>누누와윌럼프</item>
+        <item>티모</item>
+        <item>마법의수정화살</item>
+        <item>검사</item>
+        <item>리퍼</item>
+        <item>적룡포</item>
+        <item>장로드래곤</item>
+        <item>T1</item>
+        <item>닭강정</item>
+        <item>타코야끼</item>
+        <item>이세계아이돌</item>
+        <item>악동뮤지션</item>
+        <item>요네</item>
+        <item>야스오</item>
+        <item>칼날부리</item>
+        <item>탕후루</item>
+        <item>스파이패밀리</item>
+        <item>강찬밥</item>
+        <item>전지적독자시점</item>
+        <item>돈까스</item>
+        <item>남양주</item>
+        <item>공무원</item>
+        <item>부천</item>
+        <item>청주</item>
+        <item>순천</item>
+        <item>짱구는못말려</item>
+        <item>손오공</item>
+        <item>이브, 프시케 그리고 푸른 수염</item>
+        <item>귀여워서 미안해</item>
+        <item>고고학</item>
+        <item>여수밤바다</item>
+        <item>맥도날드</item>
+        <item>검은마법사</item>
+        <item>프레이</item>
+        <item>사일러스</item>
+        <item>클라우드템플러</item>
+        <item>요네즈켄시</item>
+        <item>매드라이프</item>
+        <item>킹겐</item>
+        <item>디플러스기아</item>
+        <item>제리</item>
+        <item>플레체</item>
+        <item>갈망의섬</item>
+        <item>칼바람나락</item>
+        <item>연쇄마법사</item>
+        <item>처음처럼</item>
+        <item>스물셋</item>
+        <item>일리아칸</item>
+    </string-array>
+    <string name="title_activity_sixth">SixthActivity</string>
+
+</resources>

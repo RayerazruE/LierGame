@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CFCFFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btnminus"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="25dp" />
+        <EditText
+            android:id="@+id/mnum"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/btnplus"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:text="PLAYER 1:"
+                    android:textSize="25dp" />
+                <EditText
+                    android:id="@+id/edt1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="20dp"
+                    android:hint="NAME1"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:text="PLAYER 2:"
+                    android:textSize="25dp" />
+                <EditText
+                    android:id="@+id/edt2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="20dp"
+                    android:hint="NAME2"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:text="PLAYER 3:"
+                    android:textSize="25dp" />
+                <EditText
+                    android:id="@+id/edt3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="20dp"
+                    android:hint="NAME3"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:text="PLAYER 4:"
+                    android:textSize="25dp" />
+                <EditText
+                    android:id="@+id/edt4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="20dp"
+                    android:hint="NAME4"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:text="PLAYER 5:"
+                    android:textSize="25dp" />
+                <EditText
+                    android:id="@+id/edt5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="20dp"
+                    android:hint="NAME5"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:text="PLAYER 6:"
+                    android:textSize="25dp" />
+                <EditText
+                    android:id="@+id/edt6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="20dp"
+                    android:hint="NAME6"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:text="PLAYER 7:"
+                    android:textSize="25dp" />
+                <EditText
+                    android:id="@+id/edt7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="20dp"
+                    android:hint="NAME7"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:text="PLAYER 8:"
+                    android:textSize="25dp"/>
+                <EditText
+                    android:id="@+id/edt8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="20dp"
+                    android:hint="NAME8"
+                    android:textSize="25dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="생성하기"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</LinearLayout>
